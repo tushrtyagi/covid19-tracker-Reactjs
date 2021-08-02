@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(68, 66, 66);
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+    
+}
+
+h1, p, h2 {
+    color: white;
+}
+
+.live{
+    font-size: 17px;
+}
+.title{
+   font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.title span{
+    color:rgb(255, 55, 55);
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left:132px;
+}
+
+.card__main {
+    height: 150px;
+    width: 400px;
+    margin: 25px;
+    align-items: center;
+    background-color:orangered;
+    box-shadow: 6px 4px white;
+}
+
+.card__name{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.card__name span {
+    font-size: 15px;
+}
+
+.card__total {
+    font-size: 20px;
+    font-weight: bold;
+    color: yellow;
+}
