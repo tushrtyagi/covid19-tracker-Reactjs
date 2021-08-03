@@ -31,11 +31,13 @@ ul{
 
 .card__main {
     height: 150px;
-    width: 400px;
+    width: 350px;
     margin: 25px;
     align-items: center;
     background-color:orangered;
     box-shadow: 6px 4px white;
+    position: relative;
+    left: -84px;
 }
 
 .card__name{
